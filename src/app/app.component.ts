@@ -31,7 +31,7 @@ export class AppComponent {
   ngOnInit(): void {
 
     this.autor = "201910597 Nicolas Gil";
-    
+
 
     this.url = `http://${window.location.hostname}:30007/`;
     this.http.get<any>(this.url).subscribe(data => {

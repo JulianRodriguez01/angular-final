@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('images/montana.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+  font-size: 12px;
+  margin: 10px 0;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-weight: bold;
+  color: white;
+}
+
